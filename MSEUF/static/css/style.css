@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+/* NAVBAR */
+nav{
+	background-color: #650808;
+	display: inline-block;
+}
+
+header{
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+	display: inline-block;
+	padding: 20px;
+	border-bottom: 15px solid #f65503;
+    line-height: 15px;
+}
+
+header h2{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 40px;
+	color: white;
+}
+header h3{
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+.navtop{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.navbar-buttons{
+	margin-right: 10%;
+}
+.floatright{
+	vertical-align: middle;
+	float: right;
+	color: white;
+}
+
+/* CONTENT */
+
+th{
+	color: #650808;
+	border-bottom: 2px solid #650808;
+}
+th h3{
+	font-weight: bold;
+}
+tr td{
+	font-size: 20px;
+	color: #650808 ;
+}
+button{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px;
+	border: none;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: left;
+	color: white;
+	background: #650808;
+	border: none;
+}
+
+button:hover{
+	background-color: #f52106;
+}
+
+.content{
+	background-color: #f9faeb;
+	border-radius: 5px;
+	padding: 4px;
+	font-weight: bold;
+	color: #131212;
+	font-size: 15px;
+}
+.title{
+	color: #131212;
+	border-bottom: 2px solid #131212;
+}
+.enrollment{
+	font-size: 15px;
+	color: #131212;
+}
+.right{
+	text-align: left;
+	font-size: 20px;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #650808;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+	text-decoration: none;
+	color: #f52106;
+}
+
+.label{
+	display: block;
+	margin-top: 6px;
+}
+
+.book{
+	color: #650808;
+	text-decoration: none;
+}
+.book:hover{
+	color: #f52106;
+	text-decoration: none;
+}
+
+/* FOOTER*/
+footer{
+	font-size: 14px;
+	text-align: right;
+	padding: 30px 90px;
+	color: white;
+	background-color: #650808;
+}
